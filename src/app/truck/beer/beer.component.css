@@ -1,0 +1,16 @@
+.vt-text {
+    display: grid;
+    align-items: center;
+}
+
+.good {
+    color: white;
+    background-color: green;
+    font-weight: 400px;
+}
+
+.bad {
+    color: white;
+    background-color: red;
+    font-weight: 400px;
+}

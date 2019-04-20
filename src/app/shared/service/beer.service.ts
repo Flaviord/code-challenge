@@ -39,5 +39,4 @@ export class BeerService {
     return message;
   }
 
-
 }

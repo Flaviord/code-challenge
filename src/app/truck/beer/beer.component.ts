@@ -6,7 +6,7 @@ import { MessageEnum } from '../../shared/enums/message.enum';
 @Component({
   selector: 'app-beer',
   templateUrl: './beer.component.html',
-  styleUrls: ['./beer.component.sass']
+  styleUrls: ['./beer.component.css']
 })
 export class BeerComponent implements OnInit {
 
