@@ -1,0 +1,26 @@
+<div class="row">
+  <div class="col-md-4 mt-4" *ngFor="let beer of beerDatas">
+
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">{{beer?.type}}</h5>
+        <p class="card-text">{{beer?.warning}}</p>
+        <div class="row">
+          <div class="col-md-6">
+            <span>Min: {{beer?.minTemperature}}</span>
+          </div>
+          <div class="col-md-6"><span>Max: {{beer?.maxTemperature}}</span></div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 vt-text"><span (click)="decreaseTemperature(beer)">-</span></div>
+          <div class="col-md-4">
+            <div>Now</div>
+            <span>{{beer?.temperature}} ˚C</span>
+          </div>
+          <div class="col-md-4 vt-text"><span (click)="increaseTemperature(beer)">+</span></div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</div>
