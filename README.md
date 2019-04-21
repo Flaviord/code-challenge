@@ -1,7 +1,7 @@
-# CodeChallenge
+# CodeChallenge - PragmaBrewery
 
 
-This application simulate a panel from list sensor for truck thermostat (maintaining beer)
+This application simulate a list of thermostat sensors from delivery truck - PragmaBrewery
 
 # How to.
 
