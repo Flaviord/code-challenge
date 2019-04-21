@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule, CUSTOM_ELEMENTS_SCHEMA} from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { TruckComponent } from './truck.component';
 import { BeerComponent } from './beer/beer.component';
@@ -7,6 +7,7 @@ import { BeerComponent } from './beer/beer.component';
   declarations: [TruckComponent, BeerComponent],
   imports: [
     CommonModule
-  ]
+  ],
+  schemas: [ CUSTOM_ELEMENTS_SCHEMA ]
 })
 export class TruckModule { }

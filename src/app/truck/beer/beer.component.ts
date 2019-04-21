@@ -33,8 +33,4 @@ export class BeerComponent implements OnInit {
     beer.warning = this.beerService.stateContainer(beer);
   }
 
-  stateTemperature(beer: BeerModel): void {
-    
-  }
-
 }
