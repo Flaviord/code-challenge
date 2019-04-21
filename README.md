@@ -1,6 +1,21 @@
 # CodeChallenge
 
+
+This application simulate a panel from list sensor for truck thermostat (maintaining beer)
+
+#How to.
+
+- When application is initialized it will be shown six container that represent each type of Beer.
+- Use the increase(+) or decrease(-) buttons to simulate temperature variation.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.1.
+
+* ES6
+* Webpack
+* Twitter Bootstrap
+* Karma, Jasmine
+* css
+* Typescript
 
 ## Development server
 
